@@ -1,0 +1,130 @@
+#header{
+    text-align: center;
+    color: darkgrey;
+
+   /*background-color: rgb(218, 219, 219);*/
+    
+
+}
+#content{
+  height: 300px ;
+  width: 1100px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color:  #dddddd;
+  margin-left: 58px;
+}
+#nav{
+  height: 150px;
+  width: 300px;
+  float: left;
+  /*background-color: white;*/
+}
+
+#main{
+  width: 800px;
+  float: left;
+  text-align: center;
+}
+
+#space{
+  height: 100px;
+  
+
+}
+
+#space2{
+  height: 100px;
+  
+
+}
+
+
+#conten2{
+  text-align: center;
+  height: 300px ;
+  width: 1100px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #7c7c7c;
+  margin-left: 58px;
+
+}
+
+#conten3{
+  text-align: center;
+  height: 300px ;
+  width: 1100px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #555555;
+  margin-left: 58px;
+
+}
+#container{
+
+}
+
+
+body {
+  background: linear-gradient(-45deg, #e6fcfc, #dddddd, #7c7c7c, #555555);
+  
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*background: linear-gradient(-45deg, #ffffff, #dddddd, #7c7c7c, #555555);*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+   
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+  }
+
+  .tabcontent{
+    columns: 100px 3;
+  }
