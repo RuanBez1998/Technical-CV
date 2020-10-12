@@ -1,0 +1,310 @@
+
+
+/*img {
+  border: 20px solid rgb(0, 0, 0);
+}*/
+#header{
+    text-align: center;
+    color: darkgrey;
+    width: 100%;
+    height: auto;
+
+   background-color: #222222;
+    
+
+}
+#content{
+  text-align: center;
+  
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color:  #c0bfbf;
+  /*width: 100%;
+  height: auto;*/
+  
+
+}
+
+#heading1{
+  margin-bottom: 0px;
+}
+
+#heading3{
+  text-align: center;
+}
+
+#space{
+  height: 100px;
+  
+  
+
+}
+
+/*#space2{
+  height: 100px;
+  
+
+}
+
+#space3{
+  height: 100px;
+  
+
+}*/
+
+#space4{
+  height: 60px;
+  
+
+}
+
+#conten2{
+  text-align: center;
+  /*height: 300px ;
+  width: 1100px;*/
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #acacac;
+  width: 100%;
+  height: auto;
+  color: #000000;
+
+}
+
+#conten3{
+  border-radius: 25px;
+  text-align: center;
+ /* height: 300px ;
+  width: 1100px;*/
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #222222;
+  width: 80%;
+  height: auto;
+  margin-trim: 10;
+  margin: 10%;
+  
+  color: darkgrey;
+
+ 
+  
+  
+  
+
+}
+.containerIH{
+  position: relative;
+}
+
+.containerIH .centeredIMGDark{
+  
+  bottom: 700px;
+  right: 1200px;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  
+}
+.center{
+
+align-content: center;
+width: 100%;
+  
+}
+#imageInfo{
+
+margin-left: 100px;
+
+
+
+
+}
+
+#conten4{
+  text-align: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #7e7e7e;
+  width: 100%;
+  height: auto;
+  color: #000000;
+  
+
+}
+
+#PersonalInformation{
+  color: rgb(7, 7, 7);
+  /*float: inline-start;*/
+  align-content: center;
+  text-align: center;
+  
+}
+
+
+#container{
+ 
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+
+
+.List1{
+  text-align: left;
+  list-style-type: none;
+}
+
+.List2{
+  text-align: center;
+  list-style-type: none;
+}
+
+.List3{
+  text-align: right;
+  padding: 0px 40px 0px 0px;
+  
+  list-style-type: none;
+}
+
+/*background: linear-gradient(-45deg, #e9e8e8, #bebebe, #636262, #525252);*/
+body {
+	background: linear-gradient(-45deg, #868585, #616161, #383838, #1d1d1d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/*background: linear-gradient(-45deg, #ffffff, #dddddd, #7c7c7c, #555555);*/
+.tab {
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+   
+   
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(196, 196, 196);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    /*display: none;*/
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+    text-align: center;
+    
+
+  }
+
+  .tabcontent{
+   /*columns: 100px 3;*/
+    text-align: center;
+  }
+
+
+
+
+
+#API{
+  column-count: 3;
+  text-align: center;
+  align-content: center;
+  
+}
+
+
+  #footer{
+    background-color: rgb(24, 24, 24);
+    width: 1100px;
+    height: 100px;
+    text-align: end;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: rgb(201, 201, 201);
+    
+  }
+
+
+
+
+
+/*navigation sidenav bars*/
+
+#mySidenav a {
+  position: absolute;
+  left: -60px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color:rgb(65, 65, 65);
+}
+
+#skills {
+  top: 80px;
+  background-color:rgb(65, 65, 65);
+}
+
+#courses {
+  top: 140px;
+  background-color: rgb(65, 65, 65);
+}
+
+#references {
+  top: 200px;
+  background-color: rgb(65, 65, 65);
+  
+}
